@@ -50,6 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+# 장고가 URL을 보고 가장 먼저 어떤 파일을 봐야 할지 설정하는 부분
 ROOT_URLCONF = 'blog.urls'
 
 TEMPLATES = [
