@@ -19,5 +19,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # 경로 foods가 매칭이 되면 foods안에 있는 urls파일을 봐라
-    path('foods', include('foods.urls'))
+    path('foods/', include('foods.urls'))
 ]

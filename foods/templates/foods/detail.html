@@ -1,0 +1,5 @@
+{% load static %}
+<h1>{{name}}</h1>
+<div>{{description}}</div>
+<p>{{price}}원</p>
+<img src = {% get_static_prefix %}{{img_path}} />
